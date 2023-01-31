@@ -93,7 +93,7 @@ const Home = () => {
               onChange={handleCharacters}
             />
             <div className="flex flex-col gap-3">
-              {optionsFull.map((item, index) => (
+              {optionsFull.map((item:AlphabetChangedState, index) => (
                 <Checkbox key={index} item={item} handleChange={handleChange} />
               ))}
             </div>
