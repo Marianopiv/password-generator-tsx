@@ -1,0 +1,32 @@
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input[type="range"] {
+    overflow: hidden;
+    width: 200px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #000;
+  }
+
+  input[type="range"]::-webkit-slider-runnable-track {
+    height: 6px;
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    color: #a4ffaf;
+    margin-top: -1px;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    width: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    color: white;
+    height: 18px;;
+    cursor: pointer;
+    border-radius: 100px solid;
+    background: white;
+    box-shadow: -110px 0 0 100px #a4ffaf;
+  }
+}
+
+
